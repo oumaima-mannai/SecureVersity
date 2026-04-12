@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>SecureVersity — Start Your Audit</title>
+  <meta name="description" content="Complete your compliance audit step by step with SecureVersity's guided questionnaire." />
+  <link rel="stylesheet" href="../css/styles.css" >
+  <link rel="stylesheet" href="../css/audit.css" >
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <nav class="navbar">
+    <div class="inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">✦</div>
+        <span>SecureVersity</span>
+      </a>
+      <div class="audit-progress-bar-wrap">
+        <span id="progress-label" class="progress-label">Step 1 of 9</span>
+        <div class="progress-bar-track" style="width:200px">
+          <div class="progress-bar-fill" id="top-progress-bar" style="width:11%"></div>
+        </div>
+        <span id="progress-pct" class="progress-pct">11%</span>
+      </div>
+      <a href="../index.html" class="btn btn-ghost btn-sm">✕ Cancel</a>
+    </div>
+  </nav>
+
+  <div class="audit-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="audit-sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-title">Audit Steps</div>
+        <div class="sidebar-sub">9 categories to complete</div>
+      </div>
+      <nav class="sidebar-nav" id="sidebar-nav">
+        <!-- Rendered by JS -->
+      </nav>
+      <div class="sidebar-help">
+        <div class="help-icon">💬</div>
+        <div>
+          <div style="font-weight:600;font-size:13px;">Need help?</div>
+          <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Our team is available to assist.</div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="audit-main">
+      <div class="audit-form-wrap">
+
+        <!-- Step content rendered by JS -->
+        <div id="step-container"></div>
+
+        <!-- Navigation -->
+        <div class="audit-nav-btns">
+          <button class="btn btn-secondary" id="btn-prev" onclick="prevStep()" disabled>
+            ← Previous
+          </button>
+          <button class="btn btn-primary" id="btn-next" onclick="nextStep()">
+            Next Step →
+          </button>
+        </div>
+
+      </div>
+    </main>
+
+  </div>
+
+  <script src="../js/audit.js"></script>
+</body>
+</html>
