@@ -1,0 +1,103 @@
+/* ---- results.css ---- */
+
+.results-layout { padding: 48px 24px 0; }
+
+.results-page-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 36px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.results-page-header h1 { font-size: 2rem; }
+.results-page-header p { margin-top: 6px; font-size: 15px; }
+.results-header-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+
+.results-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+/* ---- Score Card ---- */
+.score-card { margin-bottom: 24px; }
+.score-card-inner {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.score-meta { flex: 1; min-width: 180px; }
+.score-title { font-weight: 700; font-size: 16px; margin-bottom: 10px; }
+.score-level { margin-bottom: 14px; display: inline-flex; }
+.score-summary { font-size: 14px; line-height: 1.6; margin-bottom: 20px; }
+.score-breakdown-mini {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.score-mini-item { }
+.score-mini-label { font-size: 11px; color: var(--text-muted); font-weight: 500; text-transform: uppercase; letter-spacing: 0.05em; }
+.score-mini-val   { font-size: 18px; font-weight: 700; margin-top: 2px; }
+
+/* ---- Category Scores ---- */
+.category-scores { display: flex; flex-direction: column; gap: 16px; }
+.cat-item {}
+.cat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.cat-name { font-size: 14px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+.cat-score { font-size: 14px; font-weight: 700; }
+.cat-track { height: 8px; background: var(--border); border-radius: 999px; overflow: hidden; }
+.cat-fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 0%;
+}
+
+/* ---- Section Head ---- */
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  gap: 12px;
+}
+
+/* ---- Risks/Reco Lists ---- */
+.risks-list, .reco-list { display: flex; flex-direction: column; gap: 0; }
+
+/* ---- Next Steps ---- */
+.next-steps-card { background: linear-gradient(135deg, #F0F7FF, #F5F3FF); border-color: #C7D7FD; }
+.next-steps-grid { display: flex; flex-direction: column; gap: 16px; }
+.next-step-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.next-step-num {
+  width: 30px; height: 30px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: white;
+  font-weight: 700;
+  font-size: 13px;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.next-step-title { font-weight: 600; font-size: 14px; }
+.next-step-desc  { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+
+/* Right stacked cards */
+.results-right { display: flex; flex-direction: column; gap: 24px; }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .results-grid { grid-template-columns: 1fr; }
+}
