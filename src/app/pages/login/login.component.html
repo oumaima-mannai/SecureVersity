@@ -1,0 +1,72 @@
+<div class="login-page">
+  <div class="login-card">
+    <!-- Logo -->
+    <div class="login-logo">
+      <div class="logo-icon">✦</div>
+      <span>SecureVersity</span>
+    </div>
+
+    <h2 class="login-heading">Welcome back</h2>
+    <p class="login-sub">Sign in to your compliance workspace</p>
+
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+
+      <!-- Email -->
+      <div class="form-group">
+        <label class="form-label" for="email">Email address</label>
+        <input
+          id="email"
+          type="email"
+          class="form-input"
+          [class.error]="showError('email')"
+          formControlName="email"
+          placeholder="you@organization.com"
+          autocomplete="email"
+        >
+        @if (showError('email')) {
+          @if (email.errors?.['required']) {
+            <span class="login-form-error">Email is required.</span>
+          } @else if (email.errors?.['email']) {
+            <span class="login-form-error">Please enter a valid email address.</span>
+          }
+        }
+      </div>
+
+      <!-- Password -->
+      <div class="form-group">
+        <label class="form-label" for="password">Password</label>
+        <input
+          id="password"
+          type="password"
+          class="form-input"
+          [class.error]="showError('password')"
+          formControlName="password"
+          placeholder="Min. 8 characters"
+          autocomplete="current-password"
+        >
+        @if (showError('password')) {
+          @if (password.errors?.['required']) {
+            <span class="login-form-error">Password is required.</span>
+          } @else if (password.errors?.['minlength']) {
+            <span class="login-form-error">Password must be at least 8 characters.</span>
+          }
+        }
+      </div>
+
+      <!-- Forgot password -->
+      <a href="#" class="login-forgot">Forgot password?</a>
+
+      <!-- Submit -->
+      <button type="submit" class="btn btn-primary login-btn" [disabled]="loading">
+        @if (loading) { Signing in… } @else { Sign In }
+      </button>
+
+    </form>
+
+    <div class="login-divider"><span>or</span></div>
+
+    <p class="login-register">
+      Don't have an account?&nbsp;<a routerLink="/audit">Create account</a>
+    </p>
+  </div>
+</div>
