@@ -1,0 +1,152 @@
+<!-- AUDIT NAV -->
+<app-navbar
+  variant="audit"
+  [stepLabel]="completed ? 'Audit Complete' : stepLabel"
+  [progressPct]="completed ? 100 : progressPct">
+</app-navbar>
+
+<div class="audit-layout">
+
+  <!-- SIDEBAR -->
+  <aside class="audit-sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-title">Audit Steps</div>
+      <div class="sidebar-sub">9 categories to complete</div>
+    </div>
+    <nav class="sidebar-nav">
+      @for (s of STEPS; track s.id; let idx = $index) {
+        <div
+          class="sidebar-item"
+          [class.active]="idx === currentStep && !completed"
+          [class.completed]="isStepCompleted(idx)"
+          (click)="goToStep(idx)">
+          <div class="step-dot">{{ isStepCompleted(idx) ? '✓' : s.id }}</div>
+          <div class="step-label">{{ s.icon }} {{ s.label }}</div>
+          <span class="step-check">✓</span>
+        </div>
+      }
+    </nav>
+    <div class="sidebar-help">
+      <div class="help-icon">💬</div>
+      <div>
+        <div style="font-weight:600;font-size:13px;">Need help?</div>
+        <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Our team is available to assist.</div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="audit-main">
+    <div class="audit-form-wrap">
+
+      <!-- COMPLETION SCREEN -->
+      @if (completed) {
+        <div class="completion-screen animate-fadeInUp">
+          <div class="completion-icon">✓</div>
+          <h2>Audit Complete!</h2>
+          <p>All 9 sections have been completed. Your compliance report is ready — view your score, risks, and recommendations now.</p>
+          <a routerLink="/results" class="btn btn-primary btn-lg">📊 View My Report →</a>
+        </div>
+      }
+
+      <!-- STEP CONTENT -->
+      @if (!completed) {
+        <div class="step-header animate-fadeInUp">
+          <div class="step-badge">
+            <span class="badge badge-primary">{{ step.icon }} Step {{ step.id }} / {{ STEPS.length }}</span>
+          </div>
+          <h2 class="step-title">{{ step.title }}</h2>
+          <p class="step-desc">{{ step.description }}</p>
+        </div>
+
+        <div class="step-questions animate-fadeInUp" style="animation-delay:0.1s">
+          @for (q of step.questions; track q.id) {
+
+            <!-- TEXT -->
+            @if (q.type === 'text') {
+              <div class="form-group">
+                <label class="form-label" [for]="q.id">{{ q.label }}</label>
+                <input class="form-input" type="text" [id]="q.id"
+                  [placeholder]="q.placeholder || ''"
+                  [value]="getAnswer(q.id) || ''"
+                  (input)="saveField(q.id, $any($event.target).value)">
+              </div>
+            }
+
+            <!-- TEXTAREA -->
+            @if (q.type === 'textarea') {
+              <div class="form-group">
+                <label class="form-label" [for]="q.id">{{ q.label }}</label>
+                <textarea class="form-input form-textarea" [id]="q.id"
+                  [placeholder]="q.placeholder || ''"
+                  (input)="saveField(q.id, $any($event.target).value)">{{ getAnswer(q.id) || '' }}</textarea>
+              </div>
+            }
+
+            <!-- SELECT -->
+            @if (q.type === 'select') {
+              <div class="form-group">
+                <label class="form-label" [for]="q.id">{{ q.label }}</label>
+                <select class="form-input" [id]="q.id"
+                  [value]="getAnswer(q.id) || ''"
+                  (change)="saveField(q.id, $any($event.target).value)">
+                  <option value="">— Select an option —</option>
+                  @for (opt of asStringArray(q.options); track opt) {
+                    <option [value]="opt" [selected]="getAnswer(q.id) === opt">{{ opt }}</option>
+                  }
+                </select>
+              </div>
+            }
+
+            <!-- RADIO -->
+            @if (q.type === 'radio') {
+              <div class="form-group">
+                <label class="form-label">{{ q.label }}</label>
+                <div class="radio-group">
+                  @for (opt of asStringArray(q.options); track opt) {
+                    <div class="radio-item"
+                      [class.selected]="isRadioSelected(q.id, opt)"
+                      (click)="selectRadio(q.id, opt)">{{ opt }}</div>
+                  }
+                </div>
+              </div>
+            }
+
+            <!-- CHECKBOX-MULTI -->
+            @if (q.type === 'checkbox-multi') {
+              <div class="form-group">
+                <label class="form-label">{{ q.label }}</label>
+                <div class="checkbox-group">
+                  @for (opt of asOptionArray(q.options); track opt.value) {
+                    <label class="checkbox-item"
+                      [class.checked]="isChecked(q.id, opt.value!)"
+                      (click)="toggleCheckbox(q.id, opt.value!)">
+                      <input type="checkbox" [value]="opt.value" [checked]="isChecked(q.id, opt.value!)">
+                      <div class="checkbox-box">{{ isChecked(q.id, opt.value!) ? '✓' : '' }}</div>
+                      <div>
+                        <div class="checkbox-label">{{ opt.label }}</div>
+                        <div class="checkbox-desc">{{ opt.desc }}</div>
+                      </div>
+                    </label>
+                  }
+                </div>
+              </div>
+            }
+
+          }
+        </div><!-- /step-questions -->
+
+        <!-- NAV BUTTONS -->
+        <div class="audit-nav-btns">
+          <button class="btn btn-secondary" (click)="prevStep()" [disabled]="currentStep === 0">← Previous</button>
+          <button class="btn btn-primary" (click)="nextStep()">
+            {{ isLastStep ? 'Complete Audit ✓' : 'Next Step →' }}
+          </button>
+        </div>
+
+      }
+
+    </div><!-- /audit-form-wrap -->
+  </main>
+
+</div><!-- /audit-layout -->
