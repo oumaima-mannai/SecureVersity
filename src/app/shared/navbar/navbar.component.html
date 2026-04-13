@@ -1,0 +1,80 @@
+<!-- LANDING NAVBAR -->
+@if (variant === 'landing') {
+  <nav class="navbar">
+    <div class="inner">
+      <a routerLink="/" class="logo">
+        <div class="logo-icon">✦</div>
+        <span>SecureVersity</span>
+      </a>
+      <div class="nav-links">
+        <a href="/#features">Features</a>
+        <a href="/#how">How it works</a>
+        <a routerLink="/dashboard">Dashboard</a>
+      </div>
+      <div class="nav-actions">
+        <a routerLink="/login" class="btn btn-ghost btn-sm">Sign in</a>
+        <a routerLink="/audit" class="btn btn-primary btn-sm">Start Audit</a>
+      </div>
+    </div>
+  </nav>
+}
+
+<!-- DASHBOARD NAVBAR -->
+@if (variant === 'dashboard') {
+  <nav class="navbar">
+    <div class="inner">
+      <a routerLink="/" class="logo">
+        <div class="logo-icon">✦</div>
+        <span>SecureVersity</span>
+      </a>
+      <div class="nav-links">
+        <a routerLink="/">Home</a>
+        <a routerLink="/audit">New Audit</a>
+        <a routerLink="/results">Last Report</a>
+      </div>
+      <div class="nav-actions">
+        <div class="user-avatar">JD</div>
+      </div>
+    </div>
+  </nav>
+}
+
+<!-- RESULTS NAVBAR -->
+@if (variant === 'results') {
+  <nav class="navbar">
+    <div class="inner">
+      <a routerLink="/" class="logo">
+        <div class="logo-icon">✦</div>
+        <span>SecureVersity</span>
+      </a>
+      <div class="nav-links">
+        <a routerLink="/dashboard">Dashboard</a>
+        <a routerLink="/audit">New Audit</a>
+      </div>
+      <div class="nav-actions">
+        <button class="btn btn-secondary btn-sm" (click)="onExport()">⬇ Export PDF</button>
+        <a routerLink="/audit" class="btn btn-primary btn-sm">+ New Audit</a>
+      </div>
+    </div>
+  </nav>
+}
+
+<!-- AUDIT NAVBAR -->
+@if (variant === 'audit') {
+  <nav class="navbar">
+    <div class="inner">
+      <a routerLink="/" class="logo">
+        <div class="logo-icon">✦</div>
+        <span>SecureVersity</span>
+      </a>
+      <div class="audit-progress-bar-wrap">
+        <span class="progress-label">{{ stepLabel }}</span>
+        <div class="progress-bar-track" style="width:200px">
+          <div class="progress-bar-fill" [style.width.%]="progressPct"></div>
+        </div>
+        <span class="progress-pct">{{ progressPct }}%</span>
+      </div>
+      <a routerLink="/" class="btn btn-ghost btn-sm">✕ Cancel</a>
+    </div>
+  </nav>
+}
