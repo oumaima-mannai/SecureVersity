@@ -1,31 +1,40 @@
 import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { lastValueFrom } from 'rxjs';
 
-/**
- * AuthService — Placeholder for future backend integration.
- * Replace the stub methods with real HTTP calls when the API is ready.
- */
 @Injectable({ providedIn: 'root' })
 export class AuthService {
-  private _authenticated = false;
+  private readonly API_URL = 'http://localhost:3000/auth';
 
-  /**
-   * Simulate login — replace with: return this.http.post('/api/auth/login', credentials)
-   */
-  login(email: string, password: string): Promise<boolean> {
-    return new Promise(resolve => {
-      setTimeout(() => {
-        // TODO: validate against real API
-        this._authenticated = true;
-        resolve(true);
-      }, 600);
-    });
+  constructor(private http: HttpClient) {}
+
+  async login(email: string, password: string): Promise<boolean> {
+    try {
+      const response = await lastValueFrom(
+        this.http.post<{ user: any }>(
+          `${this.API_URL}/login`, 
+          { email, password },
+          { withCredentials: true } // Enables Cross-Origin HttpOnly cookies
+        )
+      );
+      
+      if (response && response.user) {
+        localStorage.setItem('user', JSON.stringify(response.user));
+        return true;
+      }
+      return false;
+    } catch (error) {
+      console.error('Login failed', error);
+      throw new Error('Invalid credentials');
+    }
   }
 
   logout(): void {
-    this._authenticated = false;
+    localStorage.removeItem('user');
+    // In a real app, also call this.http.post('/auth/logout', {}, { withCredentials: true }) to delete the cookie on the server
   }
 
   isAuthenticated(): boolean {
-    return this._authenticated;
+    return !!localStorage.getItem('user');
   }
 }
