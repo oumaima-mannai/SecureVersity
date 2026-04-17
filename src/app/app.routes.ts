@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { adminGuard } from './guards/admin.guard';
 
 export const routes: Routes = [
   {
@@ -25,6 +26,22 @@ export const routes: Routes = [
     path: 'dashboard',
     loadComponent: () =>
       import('./pages/dashboard/dashboard.component').then(m => m.DashboardComponent),
+  },
+  {
+    path: 'admin',
+    canActivate: [adminGuard],
+    loadComponent: () =>
+      import('./pages/admin/admin').then(m => m.Admin),
+    children: [
+      {
+        path: '',
+        loadComponent: () => import('./pages/admin/users-list/users-list').then(m => m.UsersList)
+      },
+      {
+        path: 'create-user',
+        loadComponent: () => import('./pages/admin/create-user/create-user').then(m => m.CreateUser)
+      }
+    ]
   },
   { path: '**', redirectTo: '' },
 ];

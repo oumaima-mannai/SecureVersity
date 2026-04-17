@@ -1,9 +1,8 @@
-import { Component, AfterViewInit, ElementRef, ViewChild } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { Component, AfterViewInit, ElementRef, ViewChild, inject, ViewEncapsulation } from '@angular/core';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 import { CommonModule, NgClass } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { NavbarComponent } from '../../shared/navbar/navbar.component';
-import { FooterComponent } from '../../shared/footer/footer.component';
+import { AuthService } from '../../services/auth.service';
 
 interface TrendPoint { month: string; score: number; }
 interface AuditRecord { date: string; org: string; framework: string; score: number; status: string; risks: number; id: string; }
@@ -12,13 +11,20 @@ interface RadarCat { name: string; score: number; }
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [CommonModule, NgClass, FormsModule, RouterLink, NavbarComponent, FooterComponent],
+  imports: [CommonModule, NgClass, FormsModule, RouterLink, RouterLinkActive],
   templateUrl: './dashboard.component.html',
+  styleUrl: './dashboard.component.css',
+  encapsulation: ViewEncapsulation.None,
 })
 export class DashboardComponent implements AfterViewInit {
 
   @ViewChild('chartBars') chartBarsRef!: ElementRef<HTMLDivElement>;
   @ViewChild('radarSvg')  radarSvgRef!:  ElementRef<SVGElement>;
+
+  auth = inject(AuthService);
+  sidebarCollapsed = false;
+
+  toggleSidebar() { this.sidebarCollapsed = !this.sidebarCollapsed; }
 
   readonly TREND_DATA: TrendPoint[] = [
     { month: 'Oct', score: 58 }, { month: 'Nov', score: 62 },

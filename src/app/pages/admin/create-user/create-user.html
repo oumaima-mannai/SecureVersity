@@ -1,0 +1,52 @@
+<div class="card p-6 shadow-sm border border-slate-200 form-container">
+  <div class="mb-6 header-flex">
+    <div>
+      <h1 class="text-2xl font-bold">Register New User</h1>
+      <p class="text-slate-500 text-sm">Provision a new account with strict role assignments.</p>
+    </div>
+    <a routerLink="/admin" class="btn btn-ghost btn-sm">← Back to List</a>
+  </div>
+
+  @if (errorMessage) {
+    <div class="error-alert">
+      ⚠ {{ errorMessage }}
+    </div>
+  }
+
+  <form [formGroup]="userForm" (ngSubmit)="onSubmit()" class="user-form">
+    
+    <div class="form-group">
+      <label>Full Name</label>
+      <input type="text" formControlName="fullName" class="form-control" placeholder="John Doe">
+    </div>
+
+    <div class="form-group">
+      <label>Email Address</label>
+      <input type="email" formControlName="email" class="form-control" placeholder="john@secureversity.com">
+    </div>
+
+    <div class="form-group">
+      <label>Temporary Password</label>
+      <input type="password" formControlName="password" class="form-control" placeholder="••••••••">
+    </div>
+
+    <div class="form-group">
+      <label>ISO 27001 Access Role</label>
+      <select formControlName="role" class="form-control">
+        <option value="ADMIN_SYSTEM">ADMIN_SYSTEM (System Administrator)</option>
+        <option value="RSSI">RSSI (Chief Information Security Officer)</option>
+        <option value="AUDITOR">AUDITOR (Compliance Auditor)</option>
+        <option value="DIRECTION">DIRECTION (Executive Board)</option>
+        <option value="EMPLOYEE_IT">EMPLOYEE_IT</option>
+        <option value="EMPLOYEE_HR">EMPLOYEE_HR</option>
+        <option value="EMPLOYEE_ADMIN">EMPLOYEE_ADMIN</option>
+      </select>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" [disabled]="userForm.invalid || isSubmitting" class="btn btn-primary">
+        {{ isSubmitting ? 'Provisioning...' : 'Create Account' }}
+      </button>
+    </div>
+  </form>
+</div>
