@@ -33,6 +33,7 @@
     "confbox": "^0.2.4",
     "cookie-parser": "^1.4.7",
     "dotenv": "^17.4.2",
+    "firebase-admin": "^13.8.0",
     "passport": "^0.7.0",
     "passport-jwt": "^4.0.1",
     "pkg-types": "^2.3.0",
