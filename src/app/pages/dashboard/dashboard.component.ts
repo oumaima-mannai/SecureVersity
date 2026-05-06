@@ -3,6 +3,7 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 import { CommonModule, NgClass } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { AuthService } from '../../services/auth.service';
+import { SidebarComponent } from '../../shared/sidebar/sidebar.component';
 
 interface TrendPoint { month: string; score: number; }
 interface AuditRecord { date: string; org: string; framework: string; score: number; status: string; risks: number; id: string; }
@@ -11,7 +12,7 @@ interface RadarCat { name: string; score: number; }
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [CommonModule, NgClass, FormsModule, RouterLink, RouterLinkActive],
+  imports: [CommonModule, NgClass, FormsModule, RouterLink, RouterLinkActive, SidebarComponent],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css',
   encapsulation: ViewEncapsulation.None,
