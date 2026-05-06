@@ -1,0 +1,87 @@
+<div class="q-container animate-fadeIn">
+  @if (loading) {
+    <div class="loading-state"><div class="spinner"></div></div>
+  } @else if (currentQuestion) {
+    
+    <!-- Top Bar -->
+    <header class="q-header">
+      <a routerLink="/assessments/tasks" class="btn btn-ghost">← Exit</a>
+      
+      <div class="q-progress-dots">
+        @for (q of questions; track q.id; let i = $index) {
+          <div class="dot" [class.active]="i === currentIndex" [class.completed]="i < currentIndex"></div>
+        }
+      </div>
+
+      <div class="q-autosave" [class.visible]="showSaveIndicator">
+        @if (saving) {
+          <span class="text-muted flex items-center gap-8"><div class="small-spinner"></div> Saving...</span>
+        } @else {
+          <span class="text-success flex items-center gap-8">✓ Saved securely</span>
+        }
+      </div>
+    </header>
+
+    <!-- Main View -->
+    <main class="q-main animate-fadeInUp">
+      
+      <div class="q-number text-primary font-bold mb-4">Question {{ currentIndex + 1 }} of {{ questions.length }}</div>
+      <div class="text-secondary text-sm mb-4">{{ currentQuestion.clauseCode }} — Réf: {{ currentQuestion.reference }}</div>
+      <h1 class="q-title mb-8">{{ currentQuestion.text }}</h1>
+      
+      <!-- ISO 27001 RESPONSE BUTTONS -->
+      <div class="q-input-area">
+        <div class="grid grid-2 gap-16 w-full mb-16">
+          <button class="btn resp-btn c" 
+                  [class.selected]="answers[currentQuestion.id].response === 'C'" 
+                  (click)="setResponse('C')">
+            <strong>C</strong> - Conforme
+          </button>
+          
+          <button class="btn resp-btn pc" 
+                  [class.selected]="answers[currentQuestion.id].response === 'PC'" 
+                  (click)="setResponse('PC')">
+            <strong>PC</strong> - Partiellement Conforme
+          </button>
+          
+          <button class="btn resp-btn nc" 
+                  [class.selected]="answers[currentQuestion.id].response === 'NC'" 
+                  (click)="setResponse('NC')">
+            <strong>NC</strong> - Non Conforme
+          </button>
+          
+          <button class="btn resp-btn na" 
+                  [class.selected]="answers[currentQuestion.id].response === 'NA'" 
+                  (click)="setResponse('NA')">
+            <strong>NA</strong> - Non Applicable
+          </button>
+        </div>
+
+        <textarea class="q-input-textarea mt-16" rows="3" 
+                  placeholder="Preuve / Observation (obligatoire si NA ou NC)..." 
+                  [(ngModel)]="answers[currentQuestion.id].observation" 
+                  (blur)="triggerAutosave()">
+        </textarea>
+      </div>
+
+      <!-- Navigation -->
+      <div class="q-nav mt-12 flex items-center justify-between">
+        <button class="btn btn-ghost" [disabled]="currentIndex === 0" (click)="prevQuestion()">
+          ↑ Previous
+        </button>
+
+        @if (isLastQuestion) {
+          <button class="btn btn-success btn-lg hover-lift shadow-success" (click)="submitSection()">
+            Submit Questionnaire
+          </button>
+        } @else {
+          <button class="btn btn-primary btn-lg hover-lift" (click)="nextQuestion()">
+            OK / Next ↓
+          </button>
+        }
+      </div>
+
+    </main>
+
+  }
+</div>

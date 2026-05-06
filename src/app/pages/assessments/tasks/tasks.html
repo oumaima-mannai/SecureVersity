@@ -1,0 +1,67 @@
+<div class="app-layout">
+
+  <!-- ENTERPRISE SIDEBAR -->
+  <app-sidebar [collapsed]="sidebarCollapsed" (toggle)="toggleSidebar()"></app-sidebar>
+
+  <!-- MAIN CONTENT -->
+  <main class="dashboard-main">
+    
+    <!-- External Sidebar Toggle -->
+    <button class="external-toggle" (click)="toggleSidebar()" [attr.title]="sidebarCollapsed ? 'Expand sidebar' : 'Collapse sidebar'">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+        <line x1="9" y1="3" x2="9" y2="21"></line>
+      </svg>
+    </button>
+
+    <div class="tasks-container animate-fadeInUp">
+      <div class="tasks-header text-center mb-8">
+        <h1 class="title">My SMSI Checklist</h1>
+        <p class="text-secondary">Complete your assigned ISO 27001 requirements.</p>
+      </div>
+
+      @if (loading) {
+        <div class="loading-state"><div class="spinner"></div></div>
+      } @else if (mySections.length === 0) {
+        <div class="empty-state text-center card glass-effect">
+          <div class="text-6xl mb-4">🎉</div>
+          <h3 class="text-xl font-bold">You're all caught up!</h3>
+          <p class="text-muted">No pending ISO 27001 assessment tasks.</p>
+        </div>
+      } @else {
+        <div class="tasks-list grid gap-24">
+          @for (section of mySections; track section.id) {
+            <div class="task-card card glass-effect hover-lift flex justify-between items-center">
+              
+              <div class="task-info">
+                <div class="flex items-center gap-12 mb-2">
+                  <span class="badge" 
+                    [class.badge-primary]="section.status === 'NOT_STARTED'"
+                    [class.badge-warning]="section.status === 'IN_PROGRESS'"
+                    [class.badge-success]="section.status === 'SUBMITTED' || section.status === 'VALIDATED'">
+                    {{ section.status }}
+                  </span>
+                </div>
+                <h2 class="task-title mb-2">{{ section.sectionTemplate.title }}</h2>
+                <p class="text-muted text-sm max-w-lg">{{ section.sectionTemplate.description }}</p>
+              </div>
+
+              <div class="task-action">
+                @if (section.status === 'SUBMITTED' || section.status === 'VALIDATED') {
+                  <button class="btn btn-secondary smooth-transition hover-lift" routerLink="/assessments/play">
+                    View Responses
+                  </button>
+                } @else {
+                  <button class="btn btn-primary smooth-transition hover-lift btn-lg" routerLink="/assessments/play">
+                    {{ section.status === 'NOT_STARTED' ? 'Start Assessment' : 'Continue' }} →
+                  </button>
+                }
+              </div>
+
+            </div>
+          }
+        </div>
+      }
+    </div>
+  </main>
+</div>

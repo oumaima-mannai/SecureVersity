@@ -1,0 +1,66 @@
+<div class="val-container animate-fadeInUp">
+  
+  @if (loading) {
+    <div class="loading-state"><div class="spinner"></div></div>
+  } @else if (section) {
+    
+    <div class="val-header">
+      <a routerLink="/assessments/dashboard" class="btn btn-ghost text-sm mb-4">← Back to Dashboard</a>
+      <div class="flex justify-between items-end">
+        <div>
+          <span class="badge badge-warning mb-2">Needs Validation</span>
+          <h1 class="title">{{ section.sectionTemplate.title }}</h1>
+          <p class="text-secondary text-sm">Submitted by {{ section.assignee?.fullName }} ({{ section.sectionTemplate.role_required }})</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="val-content grid gap-24">
+      
+      <!-- Responses Column -->
+      <div class="responses-col">
+        <h3 class="mb-4 font-bold text-muted uppercase tracking-wide text-sm">Submitted Answers</h3>
+        
+        <div class="grid gap-16">
+          @for (q of section.sectionTemplate.questions; track q.id; let i = $index) {
+            <div class="response-card card glass-effect">
+              <div class="q-number text-primary mb-2">Q{{ i + 1 }}</div>
+              <h4 class="q-text mb-4">{{ q.question_text }}</h4>
+              
+              <div class="answer-box bg-light">
+                @if (answersMap[q.id]) {
+                  <pre class="answer-text">{{ answersMap[q.id] }}</pre>
+                } @else {
+                  <span class="text-muted italic">No answer provided.</span>
+                }
+              </div>
+            </div>
+          }
+        </div>
+      </div>
+
+      <!-- Action Column -->
+      <div class="action-col">
+        <div class="card glass-effect sticky-action">
+          <h3 class="mb-4 font-bold">RSSI Verification</h3>
+          <p class="text-sm text-secondary mb-4">Review the answers provided by the stakeholder. If acceptable, these will be incorporated into the final ISO 27001 ISMS Scope.</p>
+          
+          <div class="form-group">
+            <label class="form-label text-sm">Feedback / Audit Trail Comments</label>
+            <textarea class="form-input form-textarea" placeholder="Add optional comments before approving or rejecting..." [(ngModel)]="feedback" [disabled]="processed"></textarea>
+          </div>
+
+          <div class="grid grid-2 gap-12 mt-4">
+            <button class="btn btn-danger hover-lift" (click)="reject()" [disabled]="processed">
+              ✕ Reject
+            </button>
+            <button class="btn btn-success hover-lift shadow-success" (click)="approve()" [disabled]="processed">
+              ✓ Approve
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  }
+</div>
