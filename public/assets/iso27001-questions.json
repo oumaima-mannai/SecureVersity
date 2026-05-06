@@ -1,0 +1,1295 @@
+{
+  "DIRECTION": [
+    {
+      "id": "DIR-10",
+      "clauseCode": "§ 4 — Contexte de l'organisation",
+      "number": 10,
+      "text": "Leadership, politique de sécurité, objectifs, revue de direction, amélioration continue Total : 38 questions — réparties sur 5 clause(s)/groupe(s) § 4 — Contexte de l'organisation 7 questions",
+      "reference": "§4.1 Enjeux internes/externes | §4.2 Parties intéressées | §4.3 Domaine d'application | §4.4 SMSI  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 1   Avez-vous   formellement   identifié   les   enjeux   internes   et externes susceptibles d'affecter la capacité de l'organisation à atteindre les résultats attendus de son SMSI ?  §4.1"
+    },
+    {
+      "id": "DIR-2",
+      "clauseCode": "§ 4 — Contexte de l'organisation",
+      "number": 2,
+      "text": "Ces enjeux sont-ils documentés et revus périodiquement ?",
+      "reference": "§4.1"
+    },
+    {
+      "id": "DIR-3",
+      "clauseCode": "§ 4 — Contexte de l'organisation",
+      "number": 3,
+      "text": "Avez-vous identifié les parties intéressées pertinentes pour le SMSI (clients, régulateurs, partenaires, actionnaires...) ?",
+      "reference": "§4.2"
+    },
+    {
+      "id": "DIR-4",
+      "clauseCode": "§ 4 — Contexte de l'organisation",
+      "number": 4,
+      "text": "Les exigences (légales, contractuelles, réglementaires) de ces parties intéressées sont-elles documentées et prises en compte ?",
+      "reference": "§4.2"
+    },
+    {
+      "id": "DIR-5",
+      "clauseCode": "§ 4 — Contexte de l'organisation",
+      "number": 5,
+      "text": "Le périmètre du SMSI (domaine d'application) est-il formellement défini, documenté et approuvé par la direction ?",
+      "reference": "§4.3"
+    },
+    {
+      "id": "DIR-6",
+      "clauseCode": "§ 4 — Contexte de l'organisation",
+      "number": 6,
+      "text": "Les interfaces et dépendances avec des entités hors périmètre sont-elles prises en compte dans la définition du domaine d'application ?",
+      "reference": "§4.3"
+    },
+    {
+      "id": "DIR-7",
+      "clauseCode": "§ 4 — Contexte de l'organisation",
+      "number": 7,
+      "text": "Le SMSI est-il établi, mis en œuvre, tenu à jour et amélioré en continu conformément aux exigences de la norme ?",
+      "reference": "§4.4"
+    },
+    {
+      "id": "DIR-5",
+      "clauseCode": "§ 5 — Leadership et engagement",
+      "number": 5,
+      "text": "— Leadership et engagement 12 questions",
+      "reference": "§5.1 Leadership | §5.2 Politique | §5.3 Rôles et responsabilités  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 8   La direction démontre-t-elle son leadership en assumant la responsabilité de l'efficacité du SMSI ?  §5.1"
+    },
+    {
+      "id": "DIR-9",
+      "clauseCode": "§ 5 — Leadership et engagement",
+      "number": 9,
+      "text": "La politique de sécurité de l'information est-elle établie, documentée, approuvée et signée par la direction ?",
+      "reference": "§5.1/5.2"
+    },
+    {
+      "id": "DIR-10",
+      "clauseCode": "§ 5 — Leadership et engagement",
+      "number": 10,
+      "text": "La politique est-elle cohérente avec l'orientation stratégique de l'organisation ?",
+      "reference": "§5.2"
+    },
+    {
+      "id": "DIR-11",
+      "clauseCode": "§ 5 — Leadership et engagement",
+      "number": 11,
+      "text": "La politique inclut-elle des objectifs de sécurité ou fournit-elle un cadre pour les fixer ?",
+      "reference": "§5.2"
+    },
+    {
+      "id": "DIR-12",
+      "clauseCode": "§ 5 — Leadership et engagement",
+      "number": 12,
+      "text": "La politique comprend-elle un engagement à satisfaire aux exigences applicables ?",
+      "reference": "§5.2"
+    },
+    {
+      "id": "DIR-13",
+      "clauseCode": "§ 5 — Leadership et engagement",
+      "number": 13,
+      "text": "La politique comprend-elle un engagement envers l'amélioration continue du SMSI ?",
+      "reference": "§5.2"
+    },
+    {
+      "id": "DIR-14",
+      "clauseCode": "§ 5 — Leadership et engagement",
+      "number": 14,
+      "text": "La politique est-elle disponible sous forme d'information documentée et communiquée en interne ?",
+      "reference": "§5.2"
+    },
+    {
+      "id": "DIR-15",
+      "clauseCode": "§ 5 — Leadership et engagement",
+      "number": 15,
+      "text": "La politique est-elle disponible pour les parties intéressées externes, le cas échéant ?",
+      "reference": "§5.2"
+    },
+    {
+      "id": "DIR-16",
+      "clauseCode": "§ 5 — Leadership et engagement",
+      "number": 16,
+      "text": "Les rôles et responsabilités liés à la sécurité de l'information sont-ils formellement attribués et communiqués ?",
+      "reference": "§5.3"
+    },
+    {
+      "id": "DIR-17",
+      "clauseCode": "§ 5 — Leadership et engagement",
+      "number": 17,
+      "text": "La direction s'assure-t-elle que le SMSI atteint les résultats attendus et rend compte de sa performance ?",
+      "reference": "§5.1"
+    },
+    {
+      "id": "DIR-18",
+      "clauseCode": "§ 5 — Leadership et engagement",
+      "number": 18,
+      "text": "La direction promeut-elle activement l'amélioration continue au sein de l'organisation ?",
+      "reference": "§5.1"
+    },
+    {
+      "id": "DIR-19",
+      "clauseCode": "§ 5 — Leadership et engagement",
+      "number": 19,
+      "text": "La direction soutient-elle les autres rôles de management afin de démontrer leur leadership dans leur domaine de responsabilité ?",
+      "reference": "§5.1"
+    },
+    {
+      "id": "DIR-6",
+      "clauseCode": "§ 6 — Planification — Objectifs de sécurité",
+      "number": 6,
+      "text": "— Planification — Objectifs de sécurité 5 questions",
+      "reference": "§6.1.1 Risques et opportunités | §6.2 Objectifs  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 20   Des objectifs de sécurité de l'information sont-ils établis pour les fonctions et niveaux pertinents de l'organisation ?  §6.2"
+    },
+    {
+      "id": "DIR-21",
+      "clauseCode": "§ 6 — Planification — Objectifs de sécurité",
+      "number": 21,
+      "text": "Les objectifs sont-ils mesurables, cohérents avec la politique et tenant compte des résultats de l'appréciation des risques ?",
+      "reference": "§6.2"
+    },
+    {
+      "id": "DIR-22",
+      "clauseCode": "§ 6 — Planification — Objectifs de sécurité",
+      "number": 22,
+      "text": "Les objectifs de sécurité sont-ils documentés et communiqués ?",
+      "reference": "§6.2"
+    },
+    {
+      "id": "DIR-23",
+      "clauseCode": "§ 6 — Planification — Objectifs de sécurité",
+      "number": 23,
+      "text": "Existe-t-il un plan précisant : ce qui sera fait, les ressources requises, les responsables, les délais et comment les résultats seront évalués ?",
+      "reference": "§6.2"
+    },
+    {
+      "id": "DIR-24",
+      "clauseCode": "§ 6 — Planification — Objectifs de sécurité",
+      "number": 24,
+      "text": "La direction a-t-elle planifié des actions pour traiter les risques et opportunités identifiés dans le cadre du SMSI ?",
+      "reference": "§6.1.1"
+    },
+    {
+      "id": "DIR-9",
+      "clauseCode": "§ 9.3 — Revue de direction",
+      "number": 9,
+      "text": "questions",
+      "reference": "§9.3.1 Entrées | §9.3.2 ├ëléments de revue | §9.3.3 Résultats  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 25   La   direction   réalise-t-elle   des   revues   du   SMSI   à   des intervalles planifiés ?  §9.3"
+    },
+    {
+      "id": "DIR-26",
+      "clauseCode": "§ 9.3 — Revue de direction",
+      "number": 26,
+      "text": "La revue inclut-elle l'état d'avancement des actions décidées lors des revues précédentes ?",
+      "reference": "§9.3.1"
+    },
+    {
+      "id": "DIR-27",
+      "clauseCode": "§ 9.3 — Revue de direction",
+      "number": 27,
+      "text": "La revue inclut-elle les changements des enjeux internes et externes pertinents pour le SMSI ?",
+      "reference": "§9.3.2"
+    },
+    {
+      "id": "DIR-28",
+      "clauseCode": "§ 9.3 — Revue de direction",
+      "number": 28,
+      "text": "La revue inclut-elle les retours sur la performance de la sécurité (non-conformités, indicateurs, résultats de surveillance et d'audit) ?",
+      "reference": "§9.3.2"
+    },
+    {
+      "id": "DIR-29",
+      "clauseCode": "§ 9.3 — Revue de direction",
+      "number": 29,
+      "text": "La revue inclut-elle le retour des parties intéressées ?",
+      "reference": "§9.3.2"
+    },
+    {
+      "id": "DIR-30",
+      "clauseCode": "§ 9.3 — Revue de direction",
+      "number": 30,
+      "text": "La revue inclut-elle les résultats de l'appréciation des risques et l'état du plan de traitement des risques ?",
+      "reference": "§9.3.2"
+    },
+    {
+      "id": "DIR-31",
+      "clauseCode": "§ 9.3 — Revue de direction",
+      "number": 31,
+      "text": "La revue inclut-elle les opportunités d'amélioration continue ?",
+      "reference": "§9.3.2"
+    },
+    {
+      "id": "DIR-32",
+      "clauseCode": "§ 9.3 — Revue de direction",
+      "number": 32,
+      "text": "Les résultats de la revue de direction sont-ils documentés et conservés comme information documentée ?",
+      "reference": "§9.3.3"
+    },
+    {
+      "id": "DIR-33",
+      "clauseCode": "§ 9.3 — Revue de direction",
+      "number": 33,
+      "text": "Les décisions de la revue portent-elles sur les opportunités d'amélioration et les besoins de changement du SMSI, y compris les ressources nécessaires ?",
+      "reference": "§9.3.3"
+    },
+    {
+      "id": "DIR-10",
+      "clauseCode": "§ 10 — Amélioration continue",
+      "number": 10,
+      "text": "— Amélioration continue 5 questions",
+      "reference": "§10.1 Non-conformité et actions correctives | §10.2 Amélioration continue  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 34   L'organisation   améliore-t-elle   en   continu   la   pertinence, l'adéquation et l'efficacité du SMSI ?  §10.2"
+    },
+    {
+      "id": "DIR-35",
+      "clauseCode": "§ 10 — Amélioration continue",
+      "number": 35,
+      "text": "Lorsqu'une non-conformité survient, l'organisation réagit-elle pour la maîtriser et en corriger les effets ?",
+      "reference": "§10.1"
+    },
+    {
+      "id": "DIR-36",
+      "clauseCode": "§ 10 — Amélioration continue",
+      "number": 36,
+      "text": "Les causes des non-conformités sont-elles analysées afin qu'elles ne se reproduisent pas ou n'apparaissent pas ailleurs ?",
+      "reference": "§10.1"
+    },
+    {
+      "id": "DIR-37",
+      "clauseCode": "§ 10 — Amélioration continue",
+      "number": 37,
+      "text": "Les actions correctives sont-elles proportionnées aux effets des non-conformités rencontrées ?",
+      "reference": "§10.1"
+    },
+    {
+      "id": "DIR-38",
+      "clauseCode": "§ 10 — Amélioration continue",
+      "number": 38,
+      "text": "L'efficacité des actions correctives est-elle évaluée et les résultats documentés ?",
+      "reference": "§10.1"
+    }
+  ],
+  "RSSI": [
+    {
+      "id": "RSS-42",
+      "clauseCode": "§ 6.1 — Appréciation et traitement des risques",
+      "number": 42,
+      "text": "questions — réparties sur 4 clause(s)/groupe(s) § 6.1 — Appréciation et traitement des risques 14 questions",
+      "reference": "§6.1.2 Appréciation des risques | §6.1.3 Traitement des risques  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 1   Un   processus   d'appréciation   des   risques   de   sécurité   de l'information est-il défini et documenté ?  §6.1.2a"
+    },
+    {
+      "id": "RSS-2",
+      "clauseCode": "§ 6.1 — Appréciation et traitement des risques",
+      "number": 2,
+      "text": "Des critères d'appréciation et d'acceptation du risque sont-ils établis et maintenus ?",
+      "reference": "§6.1.2a"
+    },
+    {
+      "id": "RSS-3",
+      "clauseCode": "§ 6.1 — Appréciation et traitement des risques",
+      "number": 3,
+      "text": "Le processus garantit-il que des appréciations répétées produisent des résultats cohérents, valides et comparables ?",
+      "reference": "§6.1.2b"
+    },
+    {
+      "id": "RSS-4",
+      "clauseCode": "§ 6.1 — Appréciation et traitement des risques",
+      "number": 4,
+      "text": "Les risques sont-ils identifiés avec leurs propriétaires, ainsi que les conséquences potentielles sur la confidentialité, l'intégrité et la disponibilité ?",
+      "reference": "§6.1.2c"
+    },
+    {
+      "id": "RSS-5",
+      "clauseCode": "§ 6.1 — Appréciation et traitement des risques",
+      "number": 5,
+      "text": "Les niveaux de risque sont-ils analysés (vraisemblance et conséquences) ?",
+      "reference": "§6.1.2d"
+    },
+    {
+      "id": "RSS-6",
+      "clauseCode": "§ 6.1 — Appréciation et traitement des risques",
+      "number": 6,
+      "text": "Les risques sont-ils évalués par rapport aux critères établis afin de les hiérarchiser pour le traitement ?",
+      "reference": "§6.1.2e"
+    },
+    {
+      "id": "RSS-7",
+      "clauseCode": "§ 6.1 — Appréciation et traitement des risques",
+      "number": 7,
+      "text": "Des informations documentées sur le processus et les résultats de l'appréciation des risques sont-elles conservées ?",
+      "reference": "§6.1.2f"
+    },
+    {
+      "id": "RSS-8",
+      "clauseCode": "§ 6.1 — Appréciation et traitement des risques",
+      "number": 8,
+      "text": "Un processus de traitement des risques est-il défini et les options de traitement (modifier, retenir, éviter, transférer) sélectionnées ?",
+      "reference": "§6.1.3a"
+    },
+    {
+      "id": "RSS-9",
+      "clauseCode": "§ 6.1 — Appréciation et traitement des risques",
+      "number": 9,
+      "text": "Les mesures nécessaires à la mise en œuvre de l'option de traitement choisie sont-elles déterminées et comparées à l'Annexe A de la norme ?",
+      "reference": "§6.1.3c"
+    },
+    {
+      "id": "RSS-10",
+      "clauseCode": "§ 6.1 — Appréciation et traitement des risques",
+      "number": 10,
+      "text": "Une Déclaration d'Applicabilité (DdA) est-elle produite, incluant les mesures retenues et exclues avec justifications ?",
+      "reference": "§6.1.3d"
+    },
+    {
+      "id": "RSS-11",
+      "clauseCode": "§ 6.1 — Appréciation et traitement des risques",
+      "number": 11,
+      "text": "Un plan de traitement des risques est-il formalisé et soumis à l'approbation des propriétaires de risques ?",
+      "reference": "§6.1.3e"
+    },
+    {
+      "id": "RSS-12",
+      "clauseCode": "§ 6.1 — Appréciation et traitement des risques",
+      "number": 12,
+      "text": "Les propriétaires de risques ont-ils approuvé le plan de traitement et accepté le niveau de risque résiduel ?",
+      "reference": "§6.1.3f"
+    },
+    {
+      "id": "RSS-13",
+      "clauseCode": "§ 6.1 — Appréciation et traitement des risques",
+      "number": 13,
+      "text": "Des informations documentées sur le processus et les résultats du traitement des risques sont-elles conservées ?",
+      "reference": "§6.1.3g"
+    },
+    {
+      "id": "RSS-14",
+      "clauseCode": "§ 6.1 — Appréciation et traitement des risques",
+      "number": 14,
+      "text": "L'appréciation des risques est-elle renouvelée à intervalles planifiés et lors de changements significatifs ou proposés ?",
+      "reference": "§8.2"
+    },
+    {
+      "id": "RSS-8",
+      "clauseCode": "§ 8 — Mise en œuvre opérationnelle du SMSI",
+      "number": 8,
+      "text": "— Mise en œuvre opérationnelle du SMSI 8 questions",
+      "reference": "§8.1 Planification et maîtrise | §8.2 Appréciation des risques | §8.3 Traitement des risques  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 15   Les processus nécessaires pour répondre aux exigences du SMSI sont-ils planifiés, mis en œuvre et maîtrisés ?  §8.1"
+    },
+    {
+      "id": "RSS-16",
+      "clauseCode": "§ 8 — Mise en œuvre opérationnelle du SMSI",
+      "number": 16,
+      "text": "Des critères pour les processus sont-ils définis et les processus exécutés conformément à ces critères ?",
+      "reference": "§8.1"
+    },
+    {
+      "id": "RSS-17",
+      "clauseCode": "§ 8 — Mise en œuvre opérationnelle du SMSI",
+      "number": 17,
+      "text": "Les informations documentées nécessaires pour démontrer que les processus ont été réalisés comme prévu sont-elles conservées ?",
+      "reference": "§8.1"
+    },
+    {
+      "id": "RSS-18",
+      "clauseCode": "§ 8 — Mise en œuvre opérationnelle du SMSI",
+      "number": 18,
+      "text": "Les processus externalisés pertinents pour le SMSI sont-ils identifiés et maîtrisés ?",
+      "reference": "§8.1"
+    },
+    {
+      "id": "RSS-19",
+      "clauseCode": "§ 8 — Mise en œuvre opérationnelle du SMSI",
+      "number": 19,
+      "text": "L'appréciation des risques est-elle réalisée à intervalles planifiés ou lorsque des changements significatifs sont proposés ou surviennent ?",
+      "reference": "§8.2"
+    },
+    {
+      "id": "RSS-20",
+      "clauseCode": "§ 8 — Mise en œuvre opérationnelle du SMSI",
+      "number": 20,
+      "text": "Le plan de traitement des risques est-il mis en œuvre et son état de réalisation suivi ?",
+      "reference": "§8.3"
+    },
+    {
+      "id": "RSS-21",
+      "clauseCode": "§ 8 — Mise en œuvre opérationnelle du SMSI",
+      "number": 21,
+      "text": "Les résultats du traitement des risques sont-ils documentés comme information documentée ?",
+      "reference": "§8.3"
+    },
+    {
+      "id": "RSS-22",
+      "clauseCode": "§ 8 — Mise en œuvre opérationnelle du SMSI",
+      "number": 22,
+      "text": "Les changements planifiés sont-ils maîtrisés et les conséquences de changements non intentionnels examinées, avec actions correctives si nécessaire ?",
+      "reference": "§8.1"
+    },
+    {
+      "id": "RSS-8",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 8,
+      "text": "questions",
+      "reference": "§9.1 Performance et efficacité du SMSI  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 23   L'organisation évalue-t-elle la performance de la sécurité de l'information et l'efficacité du SMSI ?  §9.1"
+    },
+    {
+      "id": "RSS-24",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 24,
+      "text": "Ce qui doit être surveillé et mesuré est-il déterminé (y compris processus et mesures de sécurité) ?",
+      "reference": "§9.1"
+    },
+    {
+      "id": "RSS-25",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 25,
+      "text": "Les méthodes de surveillance, mesure, analyse et évaluation sont-elles définies pour produire des résultats valides et comparables ?",
+      "reference": "§9.1"
+    },
+    {
+      "id": "RSS-26",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 26,
+      "text": "Quand la surveillance et la mesure doivent être effectuées est-il spécifié ?",
+      "reference": "§9.1"
+    },
+    {
+      "id": "RSS-27",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 27,
+      "text": "Qui doit effectuer la surveillance et la mesure est-il défini ?",
+      "reference": "§9.1"
+    },
+    {
+      "id": "RSS-28",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 28,
+      "text": "Quand les résultats de la surveillance et de la mesure doivent être analysés et évalués est-il précisé ?",
+      "reference": "§9.1"
+    },
+    {
+      "id": "RSS-29",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 29,
+      "text": "Qui doit analyser et évaluer ces résultats est-il identifié ?",
+      "reference": "§9.1"
+    },
+    {
+      "id": "RSS-30",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 30,
+      "text": "Des informations documentées permettant de prouver les résultats de surveillance et mesure sont-elles conservées ?",
+      "reference": "§9.1"
+    },
+    {
+      "id": "RSS-12",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 12,
+      "text": "questions",
+      "reference": "§6.1.3 DdA | Annexe A (93 mesures ISO 27001:2022)  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 31   Toutes les mesures de l'Annexe A ont-elles été examinées pour déterminer si elles sont applicables à l'organisation ?  §6.1.3/A"
+    },
+    {
+      "id": "RSS-32",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 32,
+      "text": "Pour les mesures exclues, une justification explicite est-elle fournie dans la Déclaration d'Applicabilité ?",
+      "reference": "§6.1.3d"
+    },
+    {
+      "id": "RSS-33",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 33,
+      "text": "Des politiques de sécurité thématiques sont-elles définies, approuvées par la direction et communiquées aux personnes concernées ?",
+      "reference": "A.5.1"
+    },
+    {
+      "id": "RSS-34",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 34,
+      "text": "Un processus de retour d'expérience sur les incidents de sécurité est-il en place et alimente-t-il la revue des mesures ?",
+      "reference": "A.5.27"
+    },
+    {
+      "id": "RSS-35",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 35,
+      "text": "Des rôles et responsabilités en matière de sécurité sont-ils définis, attribués et communiqués ?",
+      "reference": "A.5.2"
+    },
+    {
+      "id": "RSS-36",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 36,
+      "text": "Un inventaire des actifs informationnels est-il maintenu et chaque actif a-t-il un propriétaire désigné ?",
+      "reference": "A.5.9/5.10"
+    },
+    {
+      "id": "RSS-37",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 37,
+      "text": "Une classification de l'information est-elle définie et appliquée en fonction des besoins de l'organisation ?",
+      "reference": "A.5.12/5.1 3"
+    },
+    {
+      "id": "RSS-38",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 38,
+      "text": "Des procédures de gestion des incidents de sécurité sont-elles en place, documentées et testées ?",
+      "reference": "A.5.24ÔÇô5. 28"
+    },
+    {
+      "id": "RSS-39",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 39,
+      "text": "Un processus de gestion des vulnérabilités techniques est-il mis en œuvre et régulièrement exécuté ?",
+      "reference": "A.8.8"
+    },
+    {
+      "id": "RSS-40",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 40,
+      "text": "Des tests d'intrusion ou audits techniques sont-ils réalisés pour vérifier l'efficacité des mesures de sécurité ?",
+      "reference": "A.8.8"
+    },
+    {
+      "id": "RSS-41",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 41,
+      "text": "La continuité de la sécurité de l'information est-elle planifiée, mise en œuvre et testée ?",
+      "reference": "A.5.29/5.3 0"
+    },
+    {
+      "id": "RSS-42",
+      "clauseCode": "§ 9.1 — Surveillance, mesure, analyse et évaluation",
+      "number": 42,
+      "text": "Les exigences légales, réglementaires et contractuelles relatives à la sécurité de l'information sont-elles identifiées et respectées ?",
+      "reference": "A.5.31/5.3 4"
+    }
+  ],
+  "EMPLOYEE_IT": [
+    {
+      "id": "EMP-35",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 35,
+      "text": "questions — réparties sur 3 clause(s)/groupe(s) § 7.1 — Ressources et infrastructure 3 questions",
+      "reference": "§7.1 Ressources pour le SMSI  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 1   Les ressources nécessaires à l'établissement, la mise en œuvre, la tenue à jour et l'amélioration continue du SMSI sont-elles déterminées et fournies ?  §7.1"
+    },
+    {
+      "id": "EMP-2",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 2,
+      "text": "L'infrastructure informatique (réseaux, serveurs, postes de travail) est-elle documentée et incluse dans le périmètre du SMSI ?",
+      "reference": "§7.1/A.5.9"
+    },
+    {
+      "id": "EMP-3",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 3,
+      "text": "Les ressources allouées à la sécurité (outils, licences, personnel) sont-elles suffisantes pour atteindre les objectifs du SMSI ?",
+      "reference": "§7.1"
+    },
+    {
+      "id": "EMP-22",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 22,
+      "text": "questions",
+      "reference": "A.8.1 à A.8.34 — Contrôles des actifs technologiques  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 4   Un inventaire complet des actifs technologiques (matériels, logiciels, données) est-il maintenu à jour ?  A.5.9"
+    },
+    {
+      "id": "EMP-5",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 5,
+      "text": "Des droits d'accès sont-ils gérés selon le principe du moindre privilège (enregistrement, modification, révocation) ?",
+      "reference": "A.5.15/A.8 .2"
+    },
+    {
+      "id": "EMP-6",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 6,
+      "text": "Des comptes d'accès privilégiés (administrateurs) sont-ils identifiés, gérés et revus régulièrement ?",
+      "reference": "A.8.2"
+    },
+    {
+      "id": "EMP-7",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 7,
+      "text": "Des informations d'authentification secrètes font-elles l'objet de mesures spécifiques (politique de mot de passe fort, MFA) ?",
+      "reference": "A.5.17/A.8 .5"
+    },
+    {
+      "id": "EMP-8",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 8,
+      "text": "Les droits d'accès sont-ils revus à intervalles réguliers et lors de changements de poste ou de départ ?",
+      "reference": "A.5.18"
+    },
+    {
+      "id": "EMP-9",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 9,
+      "text": "Des mesures de protection contre les logiciels malveillants sont-elles en place et maintenues à jour ?",
+      "reference": "A.8.7"
+    },
+    {
+      "id": "EMP-10",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 10,
+      "text": "Un processus de gestion des vulnérabilités techniques et des correctifs est-il défini et appliqué dans les délais fixés par la politique ?",
+      "reference": "A.8.8"
+    },
+    {
+      "id": "EMP-11",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 11,
+      "text": "Les configurations sécurisées (durcissement) des systèmes sont-elles définies, documentées et appliquées ?",
+      "reference": "A.8.9"
+    },
+    {
+      "id": "EMP-12",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 12,
+      "text": "Les informations sensibles sont-elles chiffrées en transit et au repos conformément à une politique de chiffrement approuvée ?",
+      "reference": "A.8.24"
+    },
+    {
+      "id": "EMP-13",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 13,
+      "text": "Des sauvegardes régulières sont-elles effectuées, testées périodiquement et stockées conformément aux exigences de la politique ?",
+      "reference": "A.8.13"
+    },
+    {
+      "id": "EMP-14",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 14,
+      "text": "Des journaux d'événements (logs) sont-ils générés, protégés contre la modification et conservés selon les durées définies ?",
+      "reference": "A.8.15/8.1 7"
+    },
+    {
+      "id": "EMP-15",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 15,
+      "text": "Les horloges des systèmes d'information sont-elles synchronisées sur une source de temps de référence approuvée ?",
+      "reference": "A.8.17"
+    },
+    {
+      "id": "EMP-16",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 16,
+      "text": "Des mesures de segmentation et filtrage réseau sont-elles mises en œuvre pour isoler les environnements sensibles ?",
+      "reference": "A.8.22"
+    },
+    {
+      "id": "EMP-17",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 17,
+      "text": "L'installation de logiciels sur les systèmes en production est-elle soumise à une procédure d'autorisation formelle ?",
+      "reference": "A.8.19"
+    },
+    {
+      "id": "EMP-18",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 18,
+      "text": "Des environnements de développement, de test et de production sont-ils séparés et distincts ?",
+      "reference": "A.8.31"
+    },
+    {
+      "id": "EMP-19",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 19,
+      "text": "Des tests de sécurité (revue de code, tests d'intrusion) sont-ils effectués avant la mise en production de nouvelles applications ?",
+      "reference": "A.8.29"
+    },
+    {
+      "id": "EMP-20",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 20,
+      "text": "Les connexions à des réseaux externes font-elles l'objet de mesures de filtrage (pare-feux, proxies) documentées ?",
+      "reference": "A.8.21/8.2 2"
+    },
+    {
+      "id": "EMP-21",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 21,
+      "text": "Une procédure de suppression ou réutilisation sécurisée des supports et équipements est-elle définie et appliquée ?",
+      "reference": "A.7.10/8.1 0"
+    },
+    {
+      "id": "EMP-22",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 22,
+      "text": "L'accès à distance (VPN, RDP, etc.) est-il authentifié, chiffré et journalisé ?",
+      "reference": "A.8.20/5.1 4"
+    },
+    {
+      "id": "EMP-23",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 23,
+      "text": "Les données à caractère personnel et données sensibles sont-elles traitées conformément à la politique de classification et aux exigences légales ?",
+      "reference": "A.5.34/8.1 1"
+    },
+    {
+      "id": "EMP-24",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 24,
+      "text": "Un processus de gestion des incidents de sécurité (détection, signalement, réponse) est-il formalisé et connu de l'équipe IT ?",
+      "reference": "A.5.24/5.2 5"
+    },
+    {
+      "id": "EMP-25",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 25,
+      "text": "Les preuves relatives aux incidents de sécurité sont-elles collectées et conservées de manière à préserver leur intégrité ?",
+      "reference": "A.5.28"
+    },
+    {
+      "id": "EMP-10",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 10,
+      "text": "questions",
+      "reference": "A.7.1 à A.7.14 — Protection physique des équipements et des locaux  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 26   Des périmètres de sécurité physique sont-ils définis pour protéger   les   zones   contenant   des   informations   et   les équipements critiques (data center, salle serveur) ?  A.7.1"
+    },
+    {
+      "id": "EMP-27",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 27,
+      "text": "L'accès physique aux zones sécurisées est-il contrôlé (badges, biométrie, gardiennage) et journalisé ?",
+      "reference": "A.7.2/7.4"
+    },
+    {
+      "id": "EMP-28",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 28,
+      "text": "Les équipements sont-ils protégés contre les menaces environnementales (incendie, inondation, coupure d'alimentation) ?",
+      "reference": "A.7.5/7.11"
+    },
+    {
+      "id": "EMP-29",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 29,
+      "text": "Des alimentations électriques de secours (onduleurs, groupes électrogènes) sont-elles en place et testées régulièrement ?",
+      "reference": "A.7.11"
+    },
+    {
+      "id": "EMP-30",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 30,
+      "text": "Les supports contenant des informations sensibles sont-ils détruits de manière sécurisée lorsqu'ils ne sont plus nécessaires ?",
+      "reference": "A.7.10"
+    },
+    {
+      "id": "EMP-31",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 31,
+      "text": "Les équipements emportés hors des locaux font-ils l'objet de mesures de protection appropriées ?",
+      "reference": "A.7.9"
+    },
+    {
+      "id": "EMP-32",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 32,
+      "text": "Les câblages informatiques et électriques sont-ils protégés contre les interceptions ou les dommages physiques ?",
+      "reference": "A.7.12"
+    },
+    {
+      "id": "EMP-33",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 33,
+      "text": "Une maintenance régulière des équipements est-elle effectuée et documentée ?",
+      "reference": "A.7.13"
+    },
+    {
+      "id": "EMP-34",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 34,
+      "text": "Le travail dans les zones sécurisées fait-il l'objet de règles particulières (interdiction de photos, supervision des visiteurs) ?",
+      "reference": "A.7.3"
+    },
+    {
+      "id": "EMP-35",
+      "clauseCode": "§ 7.1 — Ressources et infrastructure",
+      "number": 35,
+      "text": "Une politique 'bureau propre / écran vide' est-elle définie et son respect vérifié ?",
+      "reference": "A.7.7"
+    }
+  ],
+  "EMPLOYEE_HR": [
+    {
+      "id": "EMP-22",
+      "clauseCode": "§ 7.2 — Compétences",
+      "number": 22,
+      "text": "questions — réparties sur 4 clause(s)/groupe(s) § 7.2 — Compétences 5 questions",
+      "reference": "§7.2 Compétences requises pour le SMSI  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 1   Les compétences nécessaires aux personnes dont le travail affecte la performance de sécurité de l'information sont-elles déterminées ?  §7.2"
+    },
+    {
+      "id": "EMP-2",
+      "clauseCode": "§ 7.2 — Compétences",
+      "number": 2,
+      "text": "Ces personnes sont-elles compétentes sur la base d'une formation, d'études ou d'une expérience appropriées ?",
+      "reference": "§7.2"
+    },
+    {
+      "id": "EMP-3",
+      "clauseCode": "§ 7.2 — Compétences",
+      "number": 3,
+      "text": "Des actions sont-elles menées pour acquérir les compétences nécessaires (formations, recrutements) et leur efficacité évaluée ?",
+      "reference": "§7.2"
+    },
+    {
+      "id": "EMP-4",
+      "clauseCode": "§ 7.2 — Compétences",
+      "number": 4,
+      "text": "Des informations documentées (enregistrements de formation, diplômes, certifications) sont-elles conservées comme preuves de compétence ?",
+      "reference": "§7.2"
+    },
+    {
+      "id": "EMP-5",
+      "clauseCode": "§ 7.2 — Compétences",
+      "number": 5,
+      "text": "Les compétences en sécurité de l'information sont-elles intégrées dans les descriptions de poste et les évaluations du personnel ?",
+      "reference": "§7.2/A.6.2"
+    },
+    {
+      "id": "EMP-5",
+      "clauseCode": "§ 7.3 — Sensibilisation",
+      "number": 5,
+      "text": "questions",
+      "reference": "§7.3 Sensibilisation à la sécurité de l'information  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 6   Les personnes travaillant sous le contrôle de l'organisation ont-elles   conscience   de   la   politique   de   sécurité   de l'information ?  §7.3"
+    },
+    {
+      "id": "EMP-7",
+      "clauseCode": "§ 7.3 — Sensibilisation",
+      "number": 7,
+      "text": "Le personnel comprend-il sa contribution à l'efficacité du SMSI et les bénéfices d'une amélioration des performances de sécurité ?",
+      "reference": "§7.3"
+    },
+    {
+      "id": "EMP-8",
+      "clauseCode": "§ 7.3 — Sensibilisation",
+      "number": 8,
+      "text": "Le personnel est-il conscient des implications d'un non-respect des exigences du SMSI ?",
+      "reference": "§7.3"
+    },
+    {
+      "id": "EMP-9",
+      "clauseCode": "§ 7.3 — Sensibilisation",
+      "number": 9,
+      "text": "Un programme de sensibilisation à la sécurité est-il mis en place, planifié annuellement et son contenu régulièrement mis à jour ?",
+      "reference": "§7.3/A.6.3"
+    },
+    {
+      "id": "EMP-10",
+      "clauseCode": "§ 7.3 — Sensibilisation",
+      "number": 10,
+      "text": "L'efficacité des actions de sensibilisation est-elle évaluée (tests de phishing simulés, quiz, évaluations) ?",
+      "reference": "§7.3/A.6.3"
+    },
+    {
+      "id": "EMP-3",
+      "clauseCode": "§ 7.4 — Communication",
+      "number": 3,
+      "text": "questions",
+      "reference": "§7.4 Besoins de communication interne et externe  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 11   Les besoins de communication interne et externe pertinents pour   le   SMSI   sont-ils   déterminés   (quoi,   quand,   à   qui, comment) ?  §7.4"
+    },
+    {
+      "id": "EMP-12",
+      "clauseCode": "§ 7.4 — Communication",
+      "number": 12,
+      "text": "Les informations relatives à la sécurité sont-elles communiquées aux parties concernées de manière opportune ?",
+      "reference": "§7.4"
+    },
+    {
+      "id": "EMP-13",
+      "clauseCode": "§ 7.4 — Communication",
+      "number": 13,
+      "text": "Les modalités de communication en cas d'incident de sécurité sont-elles connues de tous les employés ?",
+      "reference": "§7.4/A.5.2 4"
+    },
+    {
+      "id": "EMP-9",
+      "clauseCode": "§ 7.4 — Communication",
+      "number": 9,
+      "text": "questions",
+      "reference": "A.6.1 à A.6.8 — Sécurité des ressources humaines  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 14   Des   vérifications   des   antécédents   sont-elles   effectuées avant   l'embauche,   conformément   aux   lois   et   règlements applicables ?  A.6.1"
+    },
+    {
+      "id": "EMP-15",
+      "clauseCode": "§ 7.4 — Communication",
+      "number": 15,
+      "text": "Les termes et conditions d'emploi incluent-ils les responsabilités de l'employé et de l'organisation en matière de sécurité de l'information ?",
+      "reference": "A.6.2"
+    },
+    {
+      "id": "EMP-16",
+      "clauseCode": "§ 7.4 — Communication",
+      "number": 16,
+      "text": "Tous les employés et sous-traitants respectent-ils et appliquent-ils la politique de sécurité de l'information de l'organisation ?",
+      "reference": "A.6.4"
+    },
+    {
+      "id": "EMP-17",
+      "clauseCode": "§ 7.4 — Communication",
+      "number": 17,
+      "text": "Un processus disciplinaire formel est-il défini et communiqué pour les manquements à la sécurité de l'information ?",
+      "reference": "A.6.4"
+    },
+    {
+      "id": "EMP-18",
+      "clauseCode": "§ 7.4 — Communication",
+      "number": 18,
+      "text": "Les responsabilités en matière de sécurité de l'information sont-elles maintenues après la fin du contrat ou d'un changement de poste ?",
+      "reference": "A.6.5"
+    },
+    {
+      "id": "EMP-19",
+      "clauseCode": "§ 7.4 — Communication",
+      "number": 19,
+      "text": "Les accès sont-ils révoqués et les équipements récupérés lors de la fin ou du changement de poste d'un employé ?",
+      "reference": "A.6.5"
+    },
+    {
+      "id": "EMP-20",
+      "clauseCode": "§ 7.4 — Communication",
+      "number": 20,
+      "text": "Un accord de confidentialité ou de non-divulgation est-il signé par chaque employé et sous-traitant ayant accès à des informations sensibles ?",
+      "reference": "A.6.6"
+    },
+    {
+      "id": "EMP-21",
+      "clauseCode": "§ 7.4 — Communication",
+      "number": 21,
+      "text": "Des règles et mesures de sécurité pour le télétravail sont-elles définies et appliquées ?",
+      "reference": "A.6.7"
+    },
+    {
+      "id": "EMP-22",
+      "clauseCode": "§ 7.4 — Communication",
+      "number": 22,
+      "text": "Les employés sont-ils informés et tenus de signaler tout événement ou faiblesse lié à la sécurité de l'information observé ?",
+      "reference": "A.6.8"
+    }
+  ],
+  "AUDITOR": [
+    {
+      "id": "AUD-20",
+      "clauseCode": "§ 7.5 — Information documentée",
+      "number": 20,
+      "text": "questions — réparties sur 3 clause(s)/groupe(s) § 7.5 — Information documentée 7 questions",
+      "reference": "§7.5.1 Généralités | §7.5.2 Création et mise à jour | §7.5.3 Maîtrise  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 1   Le   SMSI   inclut-il   l'information   documentée   exigée   par   la norme ISO/IEC 27001 ?  §7.5.1"
+    },
+    {
+      "id": "AUD-2",
+      "clauseCode": "§ 7.5 — Information documentée",
+      "number": 2,
+      "text": "L'organisation a-t-elle déterminé et inclus l'information documentée jugée nécessaire à l'efficacité du SMSI ?",
+      "reference": "§7.5.1"
+    },
+    {
+      "id": "AUD-3",
+      "clauseCode": "§ 7.5 — Information documentée",
+      "number": 3,
+      "text": "Lors de la création et mise à jour de l'information documentée, les aspects d'identification, de format, de support et de revue/approbation sont-ils assurés ?",
+      "reference": "§7.5.2"
+    },
+    {
+      "id": "AUD-4",
+      "clauseCode": "§ 7.5 — Information documentée",
+      "number": 4,
+      "text": "L'information documentée est-elle disponible et utilisable aux endroits et au moment o├╣ elle est nécessaire ?",
+      "reference": "§7.5.3"
+    },
+    {
+      "id": "AUD-5",
+      "clauseCode": "§ 7.5 — Information documentée",
+      "number": 5,
+      "text": "L'information documentée est-elle convenablement protégée (contre la divulgation non autorisée, le mauvais usage ou la perte d'intégrité) ?",
+      "reference": "§7.5.3"
+    },
+    {
+      "id": "AUD-6",
+      "clauseCode": "§ 7.5 — Information documentée",
+      "number": 6,
+      "text": "La distribution, l'accès, la récupération, l'utilisation, le stockage, la conservation et l'élimination de l'information documentée sont-ils maîtrisés ?",
+      "reference": "§7.5.3"
+    },
+    {
+      "id": "AUD-7",
+      "clauseCode": "§ 7.5 — Information documentée",
+      "number": 7,
+      "text": "L'information documentée d'origine externe jugée nécessaire pour le SMSI est-elle identifiée et son utilisation maîtrisée ?",
+      "reference": "§7.5.3"
+    },
+    {
+      "id": "AUD-8",
+      "clauseCode": "§ 9.2 — Audit interne du SMSI",
+      "number": 8,
+      "text": "questions",
+      "reference": "§9.2.1 Objectifs | §9.2.2 Programme d'audit  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 8   L'organisation   mène-t-elle   des   audits   internes   à   des intervalles planifiés pour s'assurer que le SMSI est conforme aux exigences internes et à celles de la norme ?  §9.2.1"
+    },
+    {
+      "id": "AUD-9",
+      "clauseCode": "§ 9.2 — Audit interne du SMSI",
+      "number": 9,
+      "text": "L'audit interne permet-il de vérifier si le SMSI est efficacement mis en œuvre et tenu à jour ?",
+      "reference": "§9.2.1"
+    },
+    {
+      "id": "AUD-10",
+      "clauseCode": "§ 9.2 — Audit interne du SMSI",
+      "number": 10,
+      "text": "Un programme d'audit est-il planifié, établi, mis en œuvre et tenu à jour, en tenant compte de l'importance des processus et des résultats des audits précédents ?",
+      "reference": "§9.2.2"
+    },
+    {
+      "id": "AUD-11",
+      "clauseCode": "§ 9.2 — Audit interne du SMSI",
+      "number": 11,
+      "text": "Les critères et le périmètre de chaque audit sont-ils définis ?",
+      "reference": "§9.2.2"
+    },
+    {
+      "id": "AUD-12",
+      "clauseCode": "§ 9.2 — Audit interne du SMSI",
+      "number": 12,
+      "text": "Les auditeurs sélectionnés garantissent-ils l'objectivité et l'impartialité du processus d'audit (indépendance vis-à-vis de leur propre travail) ?",
+      "reference": "§9.2.2"
+    },
+    {
+      "id": "AUD-13",
+      "clauseCode": "§ 9.2 — Audit interne du SMSI",
+      "number": 13,
+      "text": "Les résultats des audits sont-ils communiqués à la direction concernée ?",
+      "reference": "§9.2.2"
+    },
+    {
+      "id": "AUD-14",
+      "clauseCode": "§ 9.2 — Audit interne du SMSI",
+      "number": 14,
+      "text": "Des informations documentées (rapports d'audit, registre des constatations) sont-elles conservées comme preuves du programme et des résultats d'audit ?",
+      "reference": "§9.2.2"
+    },
+    {
+      "id": "AUD-15",
+      "clauseCode": "§ 9.2 — Audit interne du SMSI",
+      "number": 15,
+      "text": "Les actions correctives issues des audits précédents sont-elles suivies jusqu'à leur clôture ?",
+      "reference": "§9.2.2/10. 1"
+    },
+    {
+      "id": "AUD-5",
+      "clauseCode": "§ 10.1 — Non-conformité et actions correctives",
+      "number": 5,
+      "text": "questions",
+      "reference": "§10.1 Traitement des non-conformités  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 16   Un registre des non-conformités est-il maintenu avec les actions prises et les résultats des actions correctives ?  §10.1"
+    },
+    {
+      "id": "AUD-17",
+      "clauseCode": "§ 10.1 — Non-conformité et actions correctives",
+      "number": 17,
+      "text": "Lorsqu'une non-conformité survient, l'organisation réagit-elle en temps opportun pour la maîtriser et corriger ses effets ?",
+      "reference": "§10.1"
+    },
+    {
+      "id": "AUD-18",
+      "clauseCode": "§ 10.1 — Non-conformité et actions correctives",
+      "number": 18,
+      "text": "Une analyse des causes racines des non-conformités est-elle systématiquement menée ?",
+      "reference": "§10.1"
+    },
+    {
+      "id": "AUD-19",
+      "clauseCode": "§ 10.1 — Non-conformité et actions correctives",
+      "number": 19,
+      "text": "L'efficacité des actions correctives mises en œuvre est-elle vérifiée et documentée ?",
+      "reference": "§10.1"
+    },
+    {
+      "id": "AUD-20",
+      "clauseCode": "§ 10.1 — Non-conformité et actions correctives",
+      "number": 20,
+      "text": "Si nécessaire, des modifications du SMSI sont-elles apportées à la suite d'une non-conformité identifiée ?",
+      "reference": "§10.1"
+    }
+  ],
+  "EMPLOYEE_ADMIN": [
+    {
+      "id": "EMP-4",
+      "clauseCode": "Général",
+      "number": 4,
+      "text": "à 10 et l'Annexe A Rôle Clauses ISO 27001 Nb Questions Direction Générale / Top Management § 4, 5, 6, 9, 10 38 RSSI / Responsable Sécurité SI § 6.1, 8, 9.1 + Annexe A 42 ├ëquipe IT / Administrateurs Systèmes & Réseaux § 7.1, 8.1 + Annexe",
+      "reference": "A.7, A.8   35 Ressources Humaines / Administration du Personnel   § 7.2, 7.3, 7.4 + Annexe A.6   22 Auditeur Interne / Responsable Conformité   § 7.5, 9.2, 10.1   20 EMPLOYEE_ADMIN   § 6.1, 8.1 + Annexe A.5   25  Légende des réponses :  C   Conforme — exigence pleinement satisfaite   NC   Non Conforme — écart constaté, action corrective requise  PC   Partiellement Conforme — en cours de mise en œuvre   NA   Non Applicable — mesure exclue avec justification  Organisation :   Date d'audit : Périmètre audité :   Réf. du rapport :  ISO/IEC 27001:2022 — Questionnaire d'audit — Classé par rôles   CONFIDENTIEL Usage interne — Document de conformité ISO/IEC 27001:2022   Page 1 / 18"
+    },
+    {
+      "id": "EMP-25",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 25,
+      "text": "questions — réparties sur 3 clause(s)/groupe(s) § 6.1 — Propriété des risques liés aux processus métier 6 questions",
+      "reference": "§6.1.2 Identification | §6.1.3 Traitement | §8.2 Réappréciation  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 1   ├ètes-vous   formellement   désigné   comme   propriétaire   des risques liés aux actifs et processus sous votre responsabilité ?  §6.1.2"
+    },
+    {
+      "id": "EMP-2",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 2,
+      "text": "Avez-vous approuvé le plan de traitement des risques concernant vos processus et accepté le niveau de risque résiduel ?",
+      "reference": "§6.1.3f"
+    },
+    {
+      "id": "EMP-3",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 3,
+      "text": "Les risques liés à vos processus métier sont-ils réexaminés lors de changements significatifs (nouveaux projets, nouvelles applications, réorganisation) ?",
+      "reference": "§8.2"
+    },
+    {
+      "id": "EMP-4",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 4,
+      "text": "Les exigences de sécurité de l'information sont-elles prises en compte dès la conception des projets et applications métier ?",
+      "reference": "§6.1/A.8.2 5"
+    },
+    {
+      "id": "EMP-5",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 5,
+      "text": "Les actifs informationnels sous votre responsabilité sont-ils inventoriés, classifiés et correctement protégés selon leur niveau de sensibilité ?",
+      "reference": "A.5.9/5.12"
+    },
+    {
+      "id": "EMP-6",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 6,
+      "text": "Les exigences légales, réglementaires et contractuelles applicables à vos processus métier sont-elles identifiées et respectées ?",
+      "reference": "A.5.31/5.3 2"
+    },
+    {
+      "id": "EMP-10",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 10,
+      "text": "questions",
+      "reference": "A.5.19 Politique | A.5.20 Exigences | A.5.21 Chaîne ICT | A.5.22 Surveillance  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 7   Une politique de sécurité de l'information pour les relations avec les fournisseurs est-elle définie et appliquée ?  A.5.19"
+    },
+    {
+      "id": "EMP-8",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 8,
+      "text": "Les exigences de sécurité pertinentes sont-elles établies et convenues avec chaque fournisseur qui accède à des informations ou systèmes de l'organisation ?",
+      "reference": "A.5.20"
+    },
+    {
+      "id": "EMP-9",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 9,
+      "text": "Les accords avec les fournisseurs incluent-ils des clauses sur la sécurité (confidentialité, niveaux de service, audits, gestion des incidents) ?",
+      "reference": "A.5.20"
+    },
+    {
+      "id": "EMP-10",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 10,
+      "text": "La chaîne d'approvisionnement ICT (produits et services technologiques) est-elle prise en compte dans la politique de sécurité des fournisseurs ?",
+      "reference": "A.5.21"
+    },
+    {
+      "id": "EMP-11",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 11,
+      "text": "La conformité des fournisseurs aux exigences de sécurité est-elle régulièrement surveillée, revue et auditée ?",
+      "reference": "A.5.22"
+    },
+    {
+      "id": "EMP-12",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 12,
+      "text": "Des changements dans les services fournis par les prestataires sont-ils gérés en tenant compte de la criticité des informations et systèmes concernés ?",
+      "reference": "A.5.22"
+    },
+    {
+      "id": "EMP-13",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 13,
+      "text": "Des procédures d'accueil et de départ des fournisseurs/prestataires définissant les règles de sécurité à respecter sont-elles en place ?",
+      "reference": "A.5.20/A.6 .1"
+    },
+    {
+      "id": "EMP-14",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 14,
+      "text": "L'accès des prestataires aux systèmes d'information est-il strictement limité au périmètre nécessaire et journalisé ?",
+      "reference": "A.5.15/A.8 .2"
+    },
+    {
+      "id": "EMP-15",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 15,
+      "text": "Les incidents de sécurité impliquant des fournisseurs sont-ils signalés et traités conformément à la procédure de gestion des incidents ?",
+      "reference": "A.5.24/5.2 2"
+    },
+    {
+      "id": "EMP-16",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 16,
+      "text": "Des évaluations de sécurité des fournisseurs critiques sont-elles réalisées avant tout engagement et périodiquement renouvelées ?",
+      "reference": "A.5.19/5.2 2"
+    },
+    {
+      "id": "EMP-9",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 9,
+      "text": "questions",
+      "reference": "§8.1 Planification | A.5.3 Séparation | A.5.29/5.30 Continuité  N°   Question   Réf.   Preuve / Observation   C   P C N C N A 17   Les processus métier incluent-ils des mesures de sécurité définies et documentées (procédures, modes opératoires) ?  §8.1"
+    },
+    {
+      "id": "EMP-18",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 18,
+      "text": "La séparation des tâches est-elle appliquée dans les processus sensibles pour réduire le risque de fraude ou d'erreur ?",
+      "reference": "A.5.3"
+    },
+    {
+      "id": "EMP-19",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 19,
+      "text": "Les droits d'accès des utilisateurs de vos équipes sont-ils revus et ajustés lors de changements de poste ou de départ ?",
+      "reference": "A.5.18"
+    },
+    {
+      "id": "EMP-20",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 20,
+      "text": "Vos équipes signalent-elles les événements de sécurité suspects (tentatives de phishing, comportements anormaux) ?",
+      "reference": "A.6.8"
+    },
+    {
+      "id": "EMP-21",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 21,
+      "text": "Les informations confidentielles de votre périmètre sont-elles traitées, transmises et stockées selon les règles de classification en vigueur ?",
+      "reference": "A.5.12/5.1 3"
+    },
+    {
+      "id": "EMP-22",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 22,
+      "text": "Des procédures de continuité d'activité (PCA) existent-elles pour vos processus critiques et sont-elles testées régulièrement ?",
+      "reference": "A.5.29/5.3 0"
+    },
+    {
+      "id": "EMP-23",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 23,
+      "text": "Les droits de propriété intellectuelle relatifs aux logiciels et contenus utilisés dans votre périmètre sont-ils respectés ?",
+      "reference": "A.5.33"
+    },
+    {
+      "id": "EMP-24",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 24,
+      "text": "Les données à caractère personnel traitées dans vos processus font-elles l'objet de mesures de protection conformes aux exigences légales ?",
+      "reference": "A.5.34"
+    },
+    {
+      "id": "EMP-25",
+      "clauseCode": "§ 6.1 — Propriété des risques liés aux processus métier",
+      "number": 25,
+      "text": "Une revue indépendante de la sécurité de l'information relative à vos processus est-elle réalisée à intervalles planifiés ?",
+      "reference": "A.5.35"
+    }
+  ]
+}
