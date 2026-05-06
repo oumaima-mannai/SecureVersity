@@ -23,9 +23,21 @@ export class AuthService {
     }
 
     const payload = { email: user.email, sub: user.id, role: user.role };
+    
+    let firebaseToken = null;
+    try {
+      const admin = require('firebase-admin');
+      if (admin.apps.length > 0) {
+        firebaseToken = await admin.auth().createCustomToken(user.id);
+      }
+    } catch (e) {
+      console.error('Failed to generate Firebase token', e);
+    }
+
     return {
       access_token: this.jwtService.sign(payload),
-      user: { id: user.id, email: user.email, role: user.role }
+      firebase_token: firebaseToken,
+      user: { id: user.id, email: user.email, role: user.role, mustChangePassword: user.mustChangePassword }
     };
   }
 }

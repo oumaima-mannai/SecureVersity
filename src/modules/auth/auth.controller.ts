@@ -6,9 +6,14 @@ import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
 import { RolesGuard } from '../../common/guards/roles.guard';
 import { Roles } from '../../common/decorators/roles.decorator';
 
+import { UsersService } from '../users/users.service';
+
 @Controller('auth')
 export class AuthController {
-  constructor(private authService: AuthService) { }
+  constructor(
+    private authService: AuthService,
+    private usersService: UsersService
+  ) { }
 
   @Post('login')
   async login(@Body() body: any, @Res({ passthrough: true }) res: Response) {
@@ -33,5 +38,15 @@ export class AuthController {
       message: 'Access granted. Welcome to the ISO 27001 SMSI compliance overview.',
       user: req.user
     };
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @Post('change-password')
+  async changePassword(@Request() req: any, @Body() body: any) {
+    if (!body.newPassword) {
+      throw new Error('newPassword is required');
+    }
+    const updatedUser = await this.usersService.changePassword(req.user.id, body.newPassword);
+    return { message: 'Password changed successfully', user: updatedUser };
   }
 }

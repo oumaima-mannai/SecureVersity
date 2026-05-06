@@ -6,8 +6,6 @@ import { RolesGuard } from '../../common/guards/roles.guard';
 import { Roles } from '../../common/decorators/roles.decorator';
 
 @Controller('users')
-@UseGuards(JwtAuthGuard, RolesGuard)
-@Roles(Role.ADMIN_SYSTEM) // Entire controller locked to Admin only
 export class UsersController {
   constructor(private readonly usersService: UsersService) {}
 

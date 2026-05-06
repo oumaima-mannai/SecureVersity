@@ -42,4 +42,18 @@ export class UsersService {
   async findById(id: string): Promise<User | null> {
     return this.prisma.user.findUnique({ where: { id } });
   }
+
+  async changePassword(userId: string, newPassword: string): Promise<Omit<User, 'password'>> {
+    const hashedPassword = await bcrypt.hash(newPassword, 10);
+    const user = await this.prisma.user.update({
+      where: { id: userId },
+      data: {
+        password: hashedPassword,
+        mustChangePassword: false,
+      },
+    });
+
+    const { password, ...result } = user;
+    return result;
+  }
 }
