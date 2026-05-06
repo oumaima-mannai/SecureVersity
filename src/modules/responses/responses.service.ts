@@ -11,35 +11,45 @@ export class ResponsesService {
   ) {}
 
   async saveAnswer(sectionId: string, questionId: string, value: any, userId?: string) {
-    // 1. Verify existence
-    const section = await this.prisma.assessmentSection.findUnique({
-      where: { id: sectionId },
-    });
+    const section = await this.prisma.assessmentSection.findUnique({ where: { id: sectionId } });
     if (!section) throw new NotFoundException('Section not found');
 
-    // 2. Upsert (Save or Update) based on section and question
+    // Update section status to IN_PROGRESS on first answer
+    if (section.status === 'NOT_STARTED') {
+      await this.prisma.assessmentSection.update({
+        where: { id: sectionId },
+        data: { status: 'IN_PROGRESS' },
+      });
+    }
+
     const existing = await this.prisma.answer.findFirst({
-      where: {
-        assessment_section_id: sectionId,
-        question_template_id: questionId,
-      },
+      where: { assessment_section_id: sectionId, question_template_id: questionId },
     });
 
     if (existing) {
-      return this.prisma.answer.update({
-        where: { id: existing.id },
-        data: { value, answered_by: userId },
-      });
+      return this.prisma.answer.update({ where: { id: existing.id }, data: { value, answered_by: userId } });
     } else {
       return this.prisma.answer.create({
-        data: {
-          assessment_section_id: sectionId,
-          question_template_id: questionId,
-          value,
-          answered_by: userId,
-        },
+        data: { assessment_section_id: sectionId, question_template_id: questionId, value, answered_by: userId },
       });
     }
+  }
+
+  async getAnswers(sectionId: string): Promise<{ questionId: string; value: any }[]> {
+    const answers = await this.prisma.answer.findMany({
+      where: { assessment_section_id: sectionId },
+      select: { question_template_id: true, value: true },
+    });
+    return answers.map(a => ({ questionId: a.question_template_id, value: a.value }));
+  }
+
+  async getSectionStatus(sectionId: string) {
+    const section = await this.prisma.assessmentSection.findUnique({
+      where: { id: sectionId },
+      select: { status: true },
+    });
+    if (!section) throw new NotFoundException('Section not found');
+    return { status: section.status };
   }
 
   async submitSection(sectionId: string) {
