@@ -40,8 +40,14 @@ export class LoginComponent {
 
     this.loading = true;
     try {
-      await this.auth.login(this.email.value, this.password.value);
-      this.router.navigate(['/dashboard']);
+      const result = await this.auth.login(this.email.value, this.password.value);
+      if (result.success) {
+        if (result.mustChangePassword) {
+          this.router.navigate(['/change-password']);
+        } else {
+          this.router.navigate(['/dashboard']);
+        }
+      }
     } finally {
       this.loading = false;
     }
